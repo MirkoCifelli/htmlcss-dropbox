@@ -209,3 +209,31 @@ h4{
 .padding-n{
     padding: 10px 30px;
 }
+
+/* section3 */
+
+
+.my-col-3-5{
+    width: calc((100% / 5) * 3);
+    min-height: 400px;
+}
+.my-col-2-5{
+    width: calc((100% / 5) * 2);
+    min-height: 400px;
+}
+div .my-col-3-5 img{
+    width: 100%;
+    display: block;   
+}
+.my-col-2-5 > *{
+    text-align: left;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+.my-col-2-5 a{
+    margin-left: 30px;
+}
+.black{
+    color: black;
+    border: 1px solid black;
+}
