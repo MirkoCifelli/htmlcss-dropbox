@@ -254,3 +254,31 @@ div .my-col-3-5 img{
     width: 100%;
     display: block;
 }
+
+
+
+/* footer */
+
+
+.footer-top{
+    min-height: 400px;
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+.my-col-1-5{
+    width: calc(100% / 5);
+}
+.my-col-1-5 h5{
+    font-size: 2em;
+    padding: 10px;
+}
+.my-col-1-5 ul{
+    list-style: none;
+}
+.my-col-1-5 ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
