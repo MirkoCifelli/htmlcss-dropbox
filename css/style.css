@@ -118,9 +118,13 @@ label{
 .my-row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
 }
 .my-col-1-3{
-    width: calc(100% / 3);
+    width: 30%;
+    
+    /* width: calc(100% / 3); */
     border: 1px solid gray;
     padding-left: 20px;
     padding-top: 30px;
@@ -171,4 +175,37 @@ label{
     width: 50px;
     margin-top: 40px;
     margin-bottom: 20px;
+}
+/* myduo*/
+
+.large-column{
+    margin-top: 30px;
+}
+.large-column > div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.column-layout > .large-column{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.large-column > div > .info {
+    text-align: left;
+    padding: 20px;
+    width: 70%;
+}
+h4{
+    margin: 20px 0 40px 0;
+}
+.contenuto{
+    display: flex;
+}
+.border{
+    border: 1px solid grey;
+}
+.padding-n{
+    padding: 10px 30px;
 }
