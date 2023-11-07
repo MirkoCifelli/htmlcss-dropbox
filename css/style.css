@@ -32,6 +32,7 @@ html {
     height: 600px;
     margin: 0 auto;
 }
+
 /* header */
 header{
     height: 100px;
@@ -236,4 +237,20 @@ div .my-col-3-5 img{
 .black{
     color: black;
     border: 1px solid black;
+}
+/* section4 */
+ .my-row-n{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-col-1-3-1{
+    width: calc(100% / 3);
+}
+.card-info > *{
+    padding-left: 10px;
+    padding-bottom: 20px;
+} 
+.card .card-img img{
+    width: 100%;
+    display: block;
 }
