@@ -282,3 +282,15 @@ div .my-col-3-5 img{
     text-decoration: none;
     padding: 5px;
 }
+.footer-botton{
+    min-height: 200px;
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+footer .footer-botton .container .special i{
+    /* font-size: 1em; */
+    padding-right: 5px;
+    font-style: normal;
+    text-align: center;
+}
