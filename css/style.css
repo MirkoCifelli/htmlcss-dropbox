@@ -27,11 +27,11 @@ html {
     max-width: 1000px;
     margin: 0 auto;
 }
-.main-container{
+/* .main-container{
     max-width: 1200px;
     height: 600px;
     margin: 0 auto;
-}
+} */
 .main-container-n{
     max-width: 1200px;
     margin: 0 auto;
@@ -76,13 +76,19 @@ header nav>ul li a{
     color: black;
     padding: 10px 20px;
 }
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
 
 
 /* main */
 main{
     margin-bottom: 30px;
 }
-/* jumbo */
+/* jumbo 1*/
 h1{
     font-size: 4em;
     padding-top: 20px;
@@ -93,23 +99,57 @@ h2{
     padding-top: 100px;
     padding-bottom: 30px;
 }
-
-.info p{
+#jumbo-color{
+    background-color: #B4D0E7;
+    min-height: 750px;
+}
+ .jumbo{
+    position: relative;
+    top: 110px; 
+    min-height: 300px;
+} 
+.position{
+    position: relative;
+    top: 40px;
+}
+.info{
+    display: flex;
+}
+.small-info{
+    width: 30%;
+}
+.small-info i{
+    font-size: 3em;
+}
+.big-info{
+    width: 70%;
+    max-height: 300px;
+}
+.big-info img{
+    width: 100%;
+    height: auto
+}
+ .info p{
     text-align: left;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     font-size: 1em;
+ }
+ .info a{
+    font-size: 1em;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.info div span{
+    display: inline-block;
+    padding: 60px 0;
 }
 
-#jumbo{
+/* jumbo 2 */
+/* #jumbo{
     background-color: #B4D0E7;
     margin-top: 100px;
 }
-.header-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-}
+
 .jumbo-container{
     width: 100%;
     background-color: #B4D0E7;
@@ -138,7 +178,7 @@ h2{
 .info i{
     padding-top: 100px;
     font-size: 2em;
-}
+} */ 
 label{
     padding-right: 50px;
 }
