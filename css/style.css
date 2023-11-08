@@ -288,15 +288,39 @@ div .my-col-3-5 img{
     }
     .light-green{
         background-color: lightgreen;
+        padding: 60px 60px;
     }
     .purplel{
        background-color: #61082B;
+       padding: 60px 60px;
     }
     .light-blue{
         background-color: #0093CE;
+        padding: 60px 60px;
     }
     .redl{
         background-color: red;
+        padding: 60px 60px;
+    }
+    .my-col-1-3-1 .flex-center img{
+        filter: invert(1);
+    }
+    .padding-logo{
+        padding: 30px 60px;
+    }
+    .padding-logo img{
+        width: 50%;
+        display: block;
+    }
+    .grey-small{
+        width: 80px;
+        color: grey;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .padding-logo span{
+        display:inline-block;
+        margin-top: 40px;
     }
 
 
