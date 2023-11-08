@@ -266,6 +266,40 @@ div .my-col-3-5 img{
     text-align: left;
     padding: 70px 10px;
 }
+/* section5 */
+    .red{
+        display: flex;
+        flex-wrap: wrap; 
+        border: 1px solid black;
+        min-height: 300px;
+    }
+    .style-calc{
+        display: flex;
+        width: calc(100% / 2) ;
+        height: calc(100vw/ 7);
+    }
+    .style-calc img{
+        width: 100%;
+        display: block;
+    }
+    .flex-center{
+        justify-content: center;
+        align-items: center;
+    }
+    .light-green{
+        background-color: lightgreen;
+    }
+    .purplel{
+       background-color: #61082B;
+    }
+    .light-blue{
+        background-color: #0093CE;
+    }
+    .redl{
+        background-color: red;
+    }
+
+
 /* section 6 */
 .container-color{
     background-color: #B4D0E7;
@@ -328,13 +362,12 @@ div .my-col-3-5 img{
     padding: 5px;
 }
 .footer-botton{
-    min-height: 200px;
+    min-height: 50px;
     background-color: black;
     color: white;
-    padding: 40px 0;
+    padding: 5px 0;
 }
 footer .footer-botton .container .special i{
-    /* font-size: 1em; */
     padding-right: 5px;
     font-style: normal;
     text-align: center;
