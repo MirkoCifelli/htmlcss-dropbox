@@ -239,6 +239,7 @@ h4{
 .my-col-2-5{
     width: calc((100% / 5) * 2);
     min-height: 400px;
+    padding-top: 40px;
 }
 div .my-col-3-5 img{
     width: 100%;
