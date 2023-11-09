@@ -1,0 +1,518 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    text-decoration: none;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.blue{
+    background-color: #094DBF;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* .main-container{
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+} */
+.main-container-n{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.big-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.margin-left-neg{
+margin-left: -20px;
+}
+.padding-45{
+    padding-bottom: 45px;
+}
+.padding-25{
+    padding-bottom: 25px;
+}
+.padding-7{
+    padding-bottom: 7px;
+}
+
+/* header */
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+header nav{
+     height: 100px;
+}
+header nav>ul{
+    list-style-type: none;
+}
+header nav>ul li{
+    display: inline-block;
+}
+header nav>ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+/* prova bonus */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    padding: 30px 5px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+/* main */
+main{
+    margin-bottom: 30px;
+}
+/* jumbo 1*/
+h1{
+    font-size: 4em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 2.5em;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#jumbo-color{
+    background-color: #B4D0E7;
+    min-height: 750px;
+}
+ .jumbo{
+    position: relative;
+    top: 110px; 
+    min-height: 300px;
+} 
+.position{
+    position: relative;
+    top: 40px;
+}
+.info{
+    display: flex;
+}
+.small-info{
+    width: 30%;
+}
+.small-info i{
+    font-size: 3em;
+}
+.big-info{
+    width: 70%;
+    max-height: 300px;
+}
+.big-info img{
+    width: 100%;
+    height: auto
+}
+ .info p{
+    text-align: left;
+    padding-bottom: 60px;
+    font-size: 1em;
+ }
+ .info a{
+    font-size: 1em;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.info div span{
+    display: inline-block;
+    padding: 60px 0;
+}
+
+/* jumbo 2 */
+/* #jumbo{
+    background-color: #B4D0E7;
+    margin-top: 100px;
+}
+
+.jumbo-container{
+    width: 100%;
+    background-color: #B4D0E7;
+}
+.info{
+    width: 30%;
+    float: left;
+    
+}
+.img-jumbo{
+    width: 70%;
+    float: right;
+}
+.img-jumbo img{
+    width: 100%;
+}
+.info a{
+    font-size: 1em;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.info div span{
+    display: inline-block;
+    padding: 40px 0;
+}
+.info i{
+    padding-top: 100px;
+    font-size: 2em;
+} */ 
+label{
+    padding-right: 50px;
+}
+
+/* section plan */
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.my-col-1-3{
+    width: 30%;
+    
+    /* width: calc(100% / 3); */
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.my-col-1-3 ul {
+    list-style: none;
+}
+.my-col-1-3 ul li{
+    align-items: flex-start;
+    padding-bottom: 30px;
+    list-style-position: outside;
+    display: flex;
+
+}
+.my-col-1-3 i{
+    text-align: center;
+    margin-right: 3px;
+}
+.my-col-1-3 h3{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.my-col-1-3 h4{
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.price{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.period{
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+.padding{
+    padding: 10px 30px;
+}
+.acquista-ora{
+    padding-top: 30px;
+}
+.center {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.hr-small{
+    width: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* myduo*/
+
+.large-column{
+    width: 100%;
+    margin-top: 30px;
+}
+.large-column > div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.large-column > div > .info {
+    text-align: left;
+    padding: 20px;
+    width: 70%;
+}
+h4{
+    margin: 20px 0 40px 0;
+}
+.contenuto{
+    display: flex;
+}
+.border{
+    border: 1px solid grey;
+}
+.padding-n{
+    padding: 10px 30px;
+}
+
+/* section3 */
+
+
+.my-col-3-5{
+    width: calc((100% / 5) * 3);
+    min-height: 400px;
+}
+.my-col-2-5{
+    width: calc((100% / 5) * 2);
+    min-height: 400px;
+    padding-top: 40px;
+}
+div .my-col-3-5 img{
+    width: 100%;
+    display: block;   
+}
+.my-col-2-5 > *{
+    text-align: left;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+.my-col-2-5 a{
+    margin-left: 30px;
+}
+.black{
+    color: black;
+    border: 1px solid black;
+}
+/* section4 */
+ .my-row-n{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.my-col-1-3-1{
+    width: calc(100% / 3);
+}
+.card-info > *{
+    padding-left: 10px;
+    padding-bottom: 20px;
+} 
+.card .card-img img{
+    width: 100%;
+    display: block;
+}
+.padding-new{
+    padding: 50px 10px ;
+}
+.new-h2{
+    text-align: left;
+    padding: 70px 10px;
+}
+/* section5 */
+    .red{
+        display: flex;
+        flex-wrap: wrap; 
+        border: 1px solid black;
+        min-height: 300px;
+    }
+    .style-calc{
+        display: flex;
+        width: calc(100% / 2) ;
+        height: calc(100vw/ 7);
+    }
+    .style-calc img{
+        width: 100%;
+        display: block;
+    }
+    .flex-center{
+        justify-content: center;
+        align-items: center;
+    }
+    .light-green{
+        background-color: lightgreen;
+        padding: 60px 60px;
+    }
+    .purplel{
+       background-color: #61082B;
+       padding: 60px 60px;
+    }
+    .light-blue{
+        background-color: #0093CE;
+        padding: 60px 60px;
+    }
+    .redl{
+        background-color: red;
+        padding: 60px 60px;
+    }
+    .my-col-1-3-1 .flex-center img{
+        filter: invert(1);
+    }
+    .padding-logo{
+        padding: 30px 60px;
+    }
+    .padding-logo img{
+        width: 50%;
+        display: block;
+    }
+    .grey-small{
+        width: 80px;
+        color: grey;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .padding-logo span{
+        display:inline-block;
+        margin-top: 40px;
+    }
+
+
+/* section 6 */
+.container-color{
+    background-color: #B4D0E7;
+    min-height: 400px;
+}
+/* section7 */
+.flex{
+    display: flex;
+    padding: 40px 0;
+}
+.big-box{
+    width: 60%;
+    min-height: 200px;
+    margin-right: 60px;
+}
+.small-box{
+    width: 40%;
+    min-height: 200px;
+    margin-top: 110px;
+}
+.purple{
+    color: #61082B;
+    text-align: left;
+}
+.white{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+
+}
+/* .height{
+    height: 500px;
+}
+.margin{
+    margin-left: 300px;
+} */
+.diff > *{
+    display: flex;
+    border-top: 1px solid black;
+    padding: 30px 0;
+}
+.diff > * > p{
+    font-weight: bold;
+    flex-grow: 1;
+    
+}
+.diff > * > div{
+    padding: 0 20px;
+}
+.margin-bottom{
+    border-bottom: 1px solid black;
+}
+
+/* secondo bonus */
+.div-hover {
+    padding: 0px;
+    display: none;
+  }
+  .hover-i:hover + .div-hover {
+    padding: 30px 10px;
+    display: block;
+  }
+/* footer */
+
+
+.footer-top{
+    min-height: 400px;
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+.my-col-1-5{
+    width: calc(100% / 5);
+}
+.my-col-1-5 h5{
+    font-size: 2em;
+    padding: 10px;
+}
+.my-col-1-5 ul{
+    list-style: none;
+}
+.my-col-1-5 ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.footer-botton{
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+footer .footer-botton .container .special i{
+    padding-right: 5px;
+    font-style: normal;
+    text-align: center;
+}
