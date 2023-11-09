@@ -472,14 +472,16 @@ div .my-col-3-5 img{
 }
 
 /* secondo bonus */
-.div-hover {
-    padding: 0px;
+.faq span {
     display: none;
-  }
-  .hover-i:hover + .div-hover {
-    padding: 30px 10px;
-    display: block;
-  }
+}
+
+.faq i:hover + span {
+    padding: 20px 0;
+    display: inline-block;
+}
+
+  
 /* footer */
 
 
